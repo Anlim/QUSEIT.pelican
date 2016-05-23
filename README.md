@@ -39,7 +39,7 @@ Category: article
 cd ../
 
 # 清空output目录，并确认
-cd output && git checkout master && rm -fr * &&  && cd ..
+cd output && git checkout master && rm -fr * && cd ..
 
 # 生成静态站点到 output 文件夹
 pelican content

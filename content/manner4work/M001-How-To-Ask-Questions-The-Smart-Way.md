@@ -1,6 +1,6 @@
 Title: 提问的智慧
 Date: 2016-05-23 13:00
-Category: 态度
+Category: 方法
 
 
 #提问的智慧
