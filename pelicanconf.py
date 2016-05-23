@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
-THEME = '//Users/huguotao/Projects/blog/pelican-themes/pelican-bootstrap3'
+THEME = os.getcwd() + os.sep + 'pelican-themes' + os.sep + 'pelican-bootstrap3'
 AUTHOR = u'quseit'
 SITENAME = u'QUSEIT-blog'
 SITEURL = ''
