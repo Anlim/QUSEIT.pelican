@@ -11,8 +11,6 @@ pip install pelican markdown
 git clone https://github.com/QUSEIT/QUSEIT.pelican.git
 # 进入仓库目录
 cd QUSEIT.pelican
-# 克隆博客主题仓库
-git clone https://github.com/getpelican/pelican-themes.git
 ```
 
 ### 写博文
