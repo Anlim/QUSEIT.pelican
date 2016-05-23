@@ -38,8 +38,8 @@ Category: article
 # 回到项目根目录 QUSEIT.pelican
 cd ../
 
-# 清空output目录
-rm -fr output/*
+# 清空output目录，并确认
+cd output && git checkout master && rm -fr * &&  && cd ..
 
 # 生成静态站点到 output 文件夹
 pelican content
@@ -58,3 +58,14 @@ git push
 
 > 当第二次需要提交博文时，请在 QUSEIT.pelican 与 QUSEIT.pelican/output 目录下分别执行 git pull 以避免不必要的冲突
 
+# 常见问题
+
+```
+1 Mac下解决这个问题的方法
+
+    from six.moves.html_parser import HTMLParser
+ImportError: No module named html_parser
+
+参考：
+https://www.douban.com/note/485820796/
+```
