@@ -1,6 +1,6 @@
 Title: JavaScript 编码规范指南
 Date: 2016-05-23 13:00
-Category: 规范
+Category: 03-规范
 
 # JavaScript 编码规范指南
 
