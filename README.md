@@ -9,6 +9,8 @@
 pip install pelican markdown
 # 克隆本仓库
 git clone https://github.com/QUSEIT/QUSEIT.pelican.git
+git submodule sync
+git submodule update
 # 进入仓库目录
 cd QUSEIT.pelican
 ```
@@ -35,6 +37,10 @@ Category: article
 ```
 # 回到项目根目录 QUSEIT.pelican
 cd ../
+
+# 清空output目录
+rm -fr output/*
+
 # 生成静态站点到 output 文件夹
 pelican content
 # 进入 output
