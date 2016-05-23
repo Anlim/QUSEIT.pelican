@@ -43,6 +43,11 @@ cd output
 git status
 git commit -am'提交了一篇新的博文'
 git push
+# 回到 QUSEIT.pelican 查看并提交变动
+cd ../
+git status
+git commit -am'提交了一篇新的博文'
+git push
 ```
 
 > 当第二次需要提交博文时，请在 QUSEIT.pelican 与 QUSEIT.pelican/output 目录下分别执行 git pull 以避免不必要的冲突
